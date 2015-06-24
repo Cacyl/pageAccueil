@@ -1,0 +1,202 @@
+body{
+
+    background-color: white;
+}
+
+
+
+
+
+
+
+#conteneur{
+    width: 1200px;
+    margin: 0 auto 0;
+}
+
+
+
+
+
+
+
+
+header{
+    float: left;
+    height: 235px;
+    width: 100%;
+    background-color: transparent;
+    padding-bottom: 0;
+
+}
+
+header nav {
+    width: 180px;
+    height:225px ;
+    background: url('banniere2.jpg');
+}
+
+header #défilé{
+    float: left;
+    width:1000px;
+    height: 200px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+nav{
+    float: left;
+    width: 1200px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+#menu {
+    width : 1200px;
+    height : 40px;
+    margin-top: 0px;
+    border-radius: 3px;
+    font-family: Georgia;
+}
+
+nav ul
+{
+    margin: 0;       /*pas de marge*/
+    padding: 0;
+
+}
+
+nav li
+{
+    list-style:none;
+    float:left;
+    position:relative;
+    line-height: 30px;
+    background:beige;
+    opacity: 0.5;
+    font-size: medium;
+}
+
+nav a    /*Modifications communes à tous les liens*/
+{
+    color:saddlebrown;
+    text-decoration: none; /*pour que les liens ne soient plus souligné*/
+    width: 230px;
+    height:40px;
+    text-align: center;
+    display:block;      /* Les disposent en bloc*/
+    border: 5px solid saddlebrown;
+    border-radius: 5px;
+}
+
+nav a:hover
+{
+    color: black;
+}
+
+
+
+
+
+
+
+article{
+    float:left;
+    width: 695px;
+    background-color: transparent;
+    margin-top: 30px;
+    margin-right: 5px;
+    height: 400px;
+}
+
+#haut{
+    float:left;
+    width:695px;
+    height: 190px;
+    background-color: transparent;
+    margin-bottom:20px ;
+}
+
+#haut-gauche{
+    float: left;
+    background :url("imagesH.jpg");
+    width: 220px;
+    height:185px ;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#haut-droit{
+    float: right;
+    background:url("planche.jpg");
+    width: 220px;
+    height:185px ;
+    border-radius: 5px;
+}
+
+#haut-milieu{
+    float: left;
+    background-color: beige;
+    width: 230px;
+    height:185px ;
+    border-radius: 5px;
+    margin-left: 8px;
+    text-align: center;
+}
+
+#texte{
+    margin-top: 50px;
+}
+
+article section #bas{
+    float:left;
+    width:695px;
+    height: 290px;
+    background: url('fond16.jpg');
+    border-radius: 5px;
+}
+
+#formulaire{
+padding-top: 100px;
+    color: white;
+}
+
+
+
+
+
+aside{
+    float: left;
+    width: 500px;
+    background-color: lightcoral;
+    height: 500px;
+    margin-top: 30px;
+    text-align: center;
+    border-top: solid 5px blue;
+}
+#communauté{
+    margin-top: 60px;
+}
+
+
+
+
+
+
+#footer ul {
+    clear: both;
+    width: 1160px;
+    height: 150px;
+    background-color: white;
+    text-align: center;
+}
+
+#footer li{
+    display: inline-block;
+    margin-top: 120px;
+}
